@@ -3,7 +3,7 @@
 
 def is_narc(n):
     """Check if a number is narc."""
-    num_str = str(n). #instead of assignment operator it was equality comparison operator
+    num_str = str(n) #instead of assignment operator it was equality comparison operator
     num_digits = len(num_str)
     
     sum_of_powers = sum(int(digit) ** num_digits for digit in num_str) # exponential operator ** was not used
